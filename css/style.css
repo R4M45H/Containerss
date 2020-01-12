@@ -7,7 +7,7 @@
 body {
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
-  font-size: 20px;
+  font-size: 16px;
   line-height: 24px;
   color: #000;
   background-color: #fff;
@@ -29,6 +29,7 @@ body {
 /*----Header----*/
 .header {
   background-color: #1855a5;
+  margin-bottom: 50px;
 }
 .header__logo,
 .footer__logo {
@@ -110,52 +111,71 @@ body {
   font-weight: 700;
   text-align: center;
 }
-.callnow {
-  height: 300px;
-}
+
 .callnow__title {
   padding: 10px 0;
 }
-.callnow__text {
-  max-width: 750px;
-  max-height: 700px;
-}
-.callnow__box {
-  min-width: 200px;
-  margin: 0 auto;
-}
 .callnow__inner {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
-  position: relative;
+  padding: 0 20px;
+  margin: 0 50px;
+}
+.callnow__text {
+  max-width: 750px;
+  padding: 10px 20px;
+  flex: 2 3;
+}
+.callnow__box {
+  min-width: 280px;
+}
+.callnow__title-contacts h2{
+  text-align: center;
 }
 
 .callnow__checkbox-contacts {
   display: flex;
   align-items: center;
 }
+.check-box__text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
 .check-box__text span {
   margin-left: 10px;
+  margin-top: 8px;
 }
 .callnow__text p {
   padding: 10px 40px 10px 30px;
 }
 .checkbox {
   display: flex;
+  justify-content: center;
   flex-direction: column;
+  align-items: center;
   padding-top: 5px;
-}
-.checkbox img {
   width: 50px;
-}
 
+}
+.fa-envelope-o{
+  font-size: 30px;
+  margin-bottom: 5px;
+}
+.fa-mobile{
+  font-size: 40px;
+}
+.fa-whatsapp{
+  font-size: 30px;
+}
 /*------Slider-----*/
 
 .slider {
   margin-top: 50px;
   min-height: 400px;
   background-color: rgba(184, 166, 133, 0.2) ;
+  padding: 0 100px;
 }
 .swiper-container {
   width: 100%;
@@ -176,16 +196,9 @@ body {
   border-radius: 20px;
   border: 5px solid #fff;
 }
-/*---parallax---*/
-.parallax {
-  background-image: url("../images/parallax.jpg");
-  height: 500px;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
+
 /*----Items---*/
+
 .containers{
   background-color:  rgba(184, 166, 133, 0.2) ;
 }
@@ -199,12 +212,11 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 100px;
-  padding: 5px;
+  margin-top: 50px;
+  padding: 0 10px;
 }
 .cont__image img {
   width: 350px;
-  padding: 10px;
   border: 5px solid #1855a5;
   border-radius: 20px;
 }
