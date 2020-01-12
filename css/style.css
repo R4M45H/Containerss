@@ -125,10 +125,9 @@ body {
   max-width: 750px;
   padding: 10px 20px;
   flex: 2 3;
-  word-wrap: break-word;
 }
 .callnow__box {
-  min-width: 280px;
+  min-width: 220px;
 }
 .callnow__title-contacts h2{
   text-align: center;
@@ -143,9 +142,12 @@ body {
   flex-direction: column;
   justify-content: space-between;
 }
-.check-box__text span {
-  margin-left: 10px;
-  margin-top: 8px;
+.check-box__text a {
+  text-decoration: none;
+  color: #000;
+  font-weight: 700;
+  margin-left: 20px;
+  margin-top: 10px;
 }
 .callnow__text p {
   padding: 10px 40px 10px 30px;
