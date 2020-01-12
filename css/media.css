@@ -1,0 +1,114 @@
+/*----------1640px----------*/
+
+@media (max-width: 1640px) {
+  
+}
+
+/*----------1400px----------*/
+
+@media (max-width: 1400px) {
+  
+  
+}
+
+/*----------1230px----------*/
+
+@media (max-width: 1230px) {
+
+  
+}
+/*----------1120px----------*/
+
+@media (max-width: 1120px) {
+  
+}
+
+/*----------1040px----------*/
+
+@media (max-width: 1040px) {
+  
+}
+
+/*----------1000px----------*/
+
+@media (max-width: 1000px) {
+  
+}
+/*----------940px----------*/
+
+@media (max-width: 940px) {
+  
+}
+/*----------840px----------*/
+
+@media (max-width: 840px) {
+  
+}
+
+/*----------768px----------*/
+
+@media (max-width: 768px) {
+ 
+}
+
+/*----------760px----------*/
+
+@media (max-width: 760px) {
+  
+}
+/*----------740px----------*/
+
+@media (max-width: 740px) {
+  
+}
+/*----------700px----------*/
+
+@media (max-width: 700px) {
+  
+}
+
+/*----------680px----------*/
+@media (max-width: 680px) {
+  
+}
+
+/*----------640px----------*/
+@media (max-width: 640px) {
+  
+}
+
+/*----------600px----------*/
+@media (max-width: 600px) {
+ 
+}
+
+/*----------550px----------*/
+
+@media (max-width: 550px) {
+  .menu-main {
+    padding-top: 0;
+  }
+  .menu-main li {
+    display: block;
+  }
+
+  .menu-main li:after {
+    content: none;
+  }
+
+  .menu-main a {
+    padding: 25px 0 20px;
+    margin: 0 30px;
+  }
+}
+/*----------480px----------*/
+
+@media (max-width: 480px) {
+  
+}
+
+/*----------360px----------*/
+
+@media (max-width: 360px) {
+  
+}
