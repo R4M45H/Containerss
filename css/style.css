@@ -119,13 +119,13 @@ body {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  padding: 0 20px;
-  margin: 0 50px;
+  padding: 10px 20px;
 }
 .callnow__text {
   max-width: 750px;
   padding: 10px 20px;
   flex: 2 3;
+  word-wrap: break-word;
 }
 .callnow__box {
   min-width: 280px;
